@@ -1,0 +1,9 @@
+require ('connection.php');
+
+ $link=mysqli_connect('localhost','id6562225_rabbicse1','abcgm2019bu','id6562225_gm2019bu');
+ 
+ echo ("<SCRIPT LANGUAGE='JavaScript'>
+        window.alert('You did not complete all of the required fields')
+        window.location.href='../admin'
+        </SCRIPT>");
+exit();
